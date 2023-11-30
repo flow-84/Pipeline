@@ -14,7 +14,7 @@ pipeline {
             }
         }
         stage('Stage 3') {
-            agent { label 'my-ec2-agent' }  // Hier wird der spezifische Agent zugewiesen 
+            agent { label 'my-ec2-agent' }  // Hier wird der spezifische Agent zugewiesen
             steps {
                 echo 'Ausführung der Stage 3'
             }
